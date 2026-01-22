@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HoldOn - Une application de bien-être numérique qui vous aide à reprendre le contrôle de votre attention grâce à la pleine conscience.">
+    <meta name="keywords" content="bien-être numérique, pleine conscience, méditation, digital wellbeing, addiction smartphone">
+    <meta name="author" content="HoldOn">
+    <meta property="og:title" content="HoldOn - Pause. Breathe. Choose.">
+    <meta property="og:description" content="Reprenez le contrôle de votre attention avec des micro-méditations bienveillantes.">
+    <meta property="og:image" content="assets/logo2.png">
+    <meta property="og:type" content="website">
+    <title>HoldOn - Pause. Breathe. Choose.</title>
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="assets/logo2.png" alt="HoldOn Logo" class="logo-img">
+            </a>
+            <div class="nav-links">
+                <a href="#features">Fonctionnalités</a>
+                <a href="#science">La Science</a>
+                <a href="#download" class="btn-nav">Télécharger</a>
+            </div>
+            <button class="nav-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Pause. Breathe. Choose.</h1>
+                <p class="hero-subtitle">Reprenez le contrôle de votre attention avec des micro-méditations bienveillantes avant d'ouvrir vos applications.</p>
+                <div class="hero-cta">
+                    <a href="https://play.google.com/store/apps/details?id=com.holdonapp" class="btn-primary" target="_blank" rel="noopener">
+                        <svg class="play-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                        </svg>
+                        Télécharger sur Google Play
+                    </a>
+                </div>
+                <p class="hero-note">Application Android uniquement • Gratuit avec option premium</p>
+            </div>
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="meditation-preview">
+                            <div class="breathing-circle"></div>
+                            <p class="meditation-text">Respire...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,64L48,69.3C96,75,192,85,288,80C384,75,480,53,576,48C672,43,768,53,864,64C960,75,1056,85,1152,80C1248,75,1344,53,1392,42.7L1440,32L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z" fill="white"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem-section">
+        <div class="container">
+            <div class="problem-content">
+                <div class="problem-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">96×</span>
+                        <span class="stat-label">fois par jour en moyenne nous consultons notre téléphone</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">4h30</span>
+                        <span class="stat-label">de temps d'écran quotidien en moyenne</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">70%</span>
+                        <span class="stat-label">des ouvertures d'apps sont automatiques et non conscientes</span>
+                    </div>
+                </div>
+                <div class="problem-text">
+                    <h2>Le problème n'est pas votre volonté</h2>
+                    <p>Les applications sont conçues par des équipes d'ingénieurs pour capturer votre attention. Les notifications, les feeds infinis, les algorithmes... tout est optimisé pour vous faire revenir.</p>
+                    <p><strong>HoldOn ne vous juge pas. HoldOn vous donne simplement un instant de pause.</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" id="features">
+        <div class="container">
+            <h2 class="section-title">Comment ça fonctionne ?</h2>
+            <p class="section-subtitle">Simple. Bienveillant. Efficace.</p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3>1. Choisissez vos apps</h3>
+                    <p>Sélectionnez les applications sur lesquelles vous souhaitez faire une pause (réseaux sociaux, jeux, etc.)</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+                            <circle cx="12" cy="12" r="4"/>
+                        </svg>
+                    </div>
+                    <h3>2. Micro-méditation</h3>
+                    <p>Quand vous ouvrez une app ciblée, un écran méditatif apparaît pendant quelques secondes avec un exercice de pleine conscience.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                    </div>
+                    <h3>3. Décidez consciemment</h3>
+                    <p>Après la pause, vous choisissez : continuer vers l'app ou revenir à l'instant présent. C'est vous qui décidez.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meditation Types Section -->
+    <section class="meditation-section">
+        <div class="container">
+            <h2 class="section-title">3 types de méditations</h2>
+            <p class="section-subtitle">Chaque ouverture d'app est une nouvelle opportunité de se recentrer</p>
+
+            <div class="meditation-types">
+                <div class="meditation-card breathing">
+                    <div class="meditation-icon">
+                        <div class="breath-animation"></div>
+                    </div>
+                    <h3>Respiration</h3>
+                    <p>Suivez le cercle qui pulse doucement. Inspirez quand il s'agrandit, expirez quand il se contracte.</p>
+                    <span class="meditation-tag">4 secondes inspire • 4 secondes expire</span>
+                </div>
+
+                <div class="meditation-card sounds">
+                    <div class="meditation-icon">
+                        <div class="sound-waves">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <h3>Sons</h3>
+                    <p>Fermez les yeux un instant et identifiez trois sons distincts autour de vous.</p>
+                    <span class="meditation-tag">Ancrage sensoriel</span>
+                </div>
+
+                <div class="meditation-card sensations">
+                    <div class="meditation-icon">
+                        <div class="particles">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <h3>Sensations</h3>
+                    <p>Reconnectez-vous à votre corps. Sentez vos pieds sur le sol, vos mains, votre respiration.</p>
+                    <span class="meditation-tag">Body scan rapide</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Science Section -->
+    <section class="science-section" id="science">
+        <div class="container">
+            <h2 class="section-title">Pourquoi ça fonctionne ?</h2>
+            <p class="section-subtitle">Une approche validée par la recherche en neurosciences</p>
+
+            <div class="science-grid">
+                <div class="science-card">
+                    <div class="science-number">01</div>
+                    <h3>L'espace stimulus-réponse</h3>
+                    <p>Entre le stimulus (envie d'ouvrir Instagram) et la réponse (l'ouvrir), il existe un espace. En créant une pause de quelques secondes, HoldOn élargit cet espace et vous permet de <strong>choisir consciemment</strong> plutôt que de réagir automatiquement.</p>
+                    <cite>— Viktor Frankl, "Man's Search for Meaning"</cite>
+                </div>
+
+                <div class="science-card">
+                    <div class="science-number">02</div>
+                    <h3>La pleine conscience réduit l'impulsivité</h3>
+                    <p>Des études montrent que même de <strong>courtes pratiques de pleine conscience</strong> (moins de 10 minutes) réduisent significativement les comportements impulsifs et améliorent l'autorégulation.</p>
+                    <cite>— Journal of Cognitive Enhancement, 2019</cite>
+                </div>
+
+                <div class="science-card">
+                    <div class="science-number">03</div>
+                    <h3>L'intention consciente</h3>
+                    <p>Quand vous devez <strong>confirmer votre choix</strong> d'ouvrir une application, vous passez du mode "pilote automatique" au mode conscient. Cette simple friction suffit souvent à briser le cycle automatique.</p>
+                    <cite>— BJ Fogg, Stanford Behavior Design Lab</cite>
+                </div>
+
+                <div class="science-card">
+                    <div class="science-number">04</div>
+                    <h3>La respiration active le parasympathique</h3>
+                    <p>La respiration lente et profonde <strong>active le système nerveux parasympathique</strong>, réduisant le stress et l'anxiété qui nous poussent souvent à chercher la distraction sur notre téléphone.</p>
+                    <cite>— Harvard Medical School</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Simplicity Section -->
+    <section class="simplicity-section">
+        <div class="container">
+            <div class="simplicity-content">
+                <div class="simplicity-text">
+                    <h2>Conçu pour être simple</h2>
+                    <ul class="simplicity-list">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            <span><strong>Configuration en 2 minutes</strong> — Choisissez vos apps, c'est prêt</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            <span><strong>Aucun compte à créer</strong> — Pas d'email, pas de mot de passe</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            <span><strong>Fonctionne hors ligne</strong> — Aucune connexion internet requise</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            <span><strong>Pas de publicité</strong> — Jamais. On déteste ça aussi.</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            <span><strong>Données 100% privées</strong> — Tout reste sur votre téléphone</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="simplicity-visual">
+                    <div class="phone-mockup small">
+                        <div class="phone-screen">
+                            <div class="app-selection-preview">
+                                <div class="app-item">
+                                    <div class="app-icon instagram"></div>
+                                    <span>Instagram</span>
+                                    <div class="checkbox checked"></div>
+                                </div>
+                                <div class="app-item">
+                                    <div class="app-icon tiktok"></div>
+                                    <span>TikTok</span>
+                                    <div class="checkbox checked"></div>
+                                </div>
+                                <div class="app-item">
+                                    <div class="app-icon twitter"></div>
+                                    <span>X (Twitter)</span>
+                                    <div class="checkbox"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section">
+        <div class="container">
+            <h2 class="section-title">Tarification simple</h2>
+            <p class="section-subtitle">Pas d'abonnement. Pas de frais cachés.</p>
+
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Gratuit</h3>
+                        <div class="pricing-price">0€</div>
+                        <p>Pour toujours</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            1 application surveillée
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            3 types de méditations
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Durée de pause personnalisable
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Aucune publicité
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="pricing-card premium">
+                    <div class="pricing-badge">Recommandé</div>
+                    <div class="pricing-header">
+                        <h3>Premium</h3>
+                        <div class="pricing-price">9,99€</div>
+                        <p>Achat unique, à vie</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            <strong>Applications illimitées</strong>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            3 types de méditations
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Personnalisation avancée
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Toutes les futures fonctionnalités
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Soutenir un développeur indépendant
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download-section" id="download">
+        <div class="container">
+            <div class="download-content">
+                <h2>Prêt à reprendre le contrôle ?</h2>
+                <p>Téléchargez HoldOn gratuitement et commencez dès aujourd'hui.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.holdonapp" class="btn-primary large" target="_blank" rel="noopener">
+                    <svg class="play-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                    </svg>
+                    Télécharger sur Google Play
+                </a>
+                <p class="download-note">Android 8.0+ requis • ~15 Mo</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="assets/logo2.png" alt="HoldOn" class="footer-logo">
+                    <p>Pause. Breathe. Choose.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Légal</h4>
+                        <a href="privacy.html">Politique de confidentialité</a>
+                        <a href="terms.html">Conditions d'utilisation</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <a href="mailto:contact@holdon-app.com">contact@holdon-app.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 HoldOn. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile navigation toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu if open
+                    navLinks.classList.remove('active');
+                    navToggle.classList.remove('active');
+                }
+            });
+        });
+
+        // Navbar background on scroll
+        const navbar = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
