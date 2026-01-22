@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "science": "La Science",
+    "download": "Télécharger",
+    "home": "Accueil",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation"
+  },
+  "hero": {
+    "title": "Pause. Breathe. Choose.",
+    "subtitle": "Reprenez le contrôle de votre attention avec des micro-méditations bienveillantes avant d'ouvrir vos applications.",
+    "cta": "Télécharger sur Google Play",
+    "note": "Application Android uniquement • Gratuit avec option premium"
+  },
+  "meditation": {
+    "breathe": "Respire..."
+  },
+  "problem": {
+    "stat1_number": "96×",
+    "stat1_label": "fois par jour en moyenne nous consultons notre téléphone",
+    "stat2_number": "4h30",
+    "stat2_label": "de temps d'écran quotidien en moyenne",
+    "stat3_number": "70%",
+    "stat3_label": "des ouvertures d'apps sont automatiques et non conscientes",
+    "title": "Le problème n'est pas votre volonté",
+    "text1": "Les applications sont conçues par des équipes d'ingénieurs pour capturer votre attention. Les notifications, les feeds infinis, les algorithmes... tout est optimisé pour vous faire revenir.",
+    "text2": "HoldOn ne vous juge pas. HoldOn vous donne simplement un instant de pause."
+  },
+  "features": {
+    "title": "Comment ça fonctionne ?",
+    "subtitle": "Simple. Bienveillant. Efficace.",
+    "step1_title": "1. Choisissez vos apps",
+    "step1_text": "Sélectionnez les applications sur lesquelles vous souhaitez faire une pause (réseaux sociaux, jeux, etc.)",
+    "step2_title": "2. Micro-méditation",
+    "step2_text": "Quand vous ouvrez une app ciblée, un écran méditatif apparaît pendant quelques secondes avec un exercice de pleine conscience.",
+    "step3_title": "3. Décidez consciemment",
+    "step3_text": "Après la pause, vous choisissez : continuer vers l'app ou revenir à l'instant présent. C'est vous qui décidez."
+  },
+  "meditations": {
+    "title": "3 types de méditations",
+    "subtitle": "Chaque ouverture d'app est une nouvelle opportunité de se recentrer",
+    "breathing_title": "Respiration",
+    "breathing_text": "Suivez le cercle qui pulse doucement. Inspirez quand il s'agrandit, expirez quand il se contracte.",
+    "breathing_tag": "4 secondes inspire • 4 secondes expire",
+    "sounds_title": "Sons",
+    "sounds_text": "Fermez les yeux un instant et identifiez trois sons distincts autour de vous.",
+    "sounds_tag": "Ancrage sensoriel",
+    "sensations_title": "Sensations",
+    "sensations_text": "Reconnectez-vous à votre corps. Sentez vos pieds sur le sol, vos mains, votre respiration.",
+    "sensations_tag": "Body scan rapide"
+  },
+  "science": {
+    "title": "Pourquoi ça fonctionne ?",
+    "subtitle": "Une approche validée par la recherche en neurosciences",
+    "card1_title": "L'espace stimulus-réponse",
+    "card1_text": "Entre le stimulus (envie d'ouvrir Instagram) et la réponse (l'ouvrir), il existe un espace. En créant une pause de quelques secondes, HoldOn élargit cet espace et vous permet de <strong>choisir consciemment</strong> plutôt que de réagir automatiquement.",
+    "card1_cite": "— Viktor Frankl, \"Man's Search for Meaning\"",
+    "card2_title": "La pleine conscience réduit l'impulsivité",
+    "card2_text": "Des études montrent que même de <strong>courtes pratiques de pleine conscience</strong> (moins de 10 minutes) réduisent significativement les comportements impulsifs et améliorent l'autorégulation.",
+    "card2_cite": "— Journal of Cognitive Enhancement, 2019",
+    "card3_title": "L'intention consciente",
+    "card3_text": "Quand vous devez <strong>confirmer votre choix</strong> d'ouvrir une application, vous passez du mode \"pilote automatique\" au mode conscient. Cette simple friction suffit souvent à briser le cycle automatique.",
+    "card3_cite": "— BJ Fogg, Stanford Behavior Design Lab",
+    "card4_title": "La respiration active le parasympathique",
+    "card4_text": "La respiration lente et profonde <strong>active le système nerveux parasympathique</strong>, réduisant le stress et l'anxiété qui nous poussent souvent à chercher la distraction sur notre téléphone.",
+    "card4_cite": "— Harvard Medical School"
+  },
+  "simplicity": {
+    "title": "Conçu pour être simple",
+    "item1": "<strong>Configuration en 2 minutes</strong> — Choisissez vos apps, c'est prêt",
+    "item2": "<strong>Aucun compte à créer</strong> — Pas d'email, pas de mot de passe",
+    "item3": "<strong>Fonctionne hors ligne</strong> — Aucune connexion internet requise",
+    "item4": "<strong>Pas de publicité</strong> — Jamais. On déteste ça aussi.",
+    "item5": "<strong>Données 100% privées</strong> — Tout reste sur votre téléphone"
+  },
+  "pricing": {
+    "title": "Tarification simple",
+    "subtitle": "Pas d'abonnement. Pas de frais cachés.",
+    "free_title": "Gratuit",
+    "free_price": "0€",
+    "free_period": "Pour toujours",
+    "free_feature1": "1 application surveillée",
+    "free_feature2": "3 types de méditations",
+    "free_feature3": "Durée de pause personnalisable",
+    "free_feature4": "Aucune publicité",
+    "premium_badge": "Recommandé",
+    "premium_title": "Premium",
+    "premium_price": "9,99€",
+    "premium_period": "Achat unique, à vie",
+    "premium_feature1": "Applications illimitées",
+    "premium_feature2": "3 types de méditations",
+    "premium_feature3": "Personnalisation avancée",
+    "premium_feature4": "Toutes les futures fonctionnalités",
+    "premium_feature5": "Soutenir un développeur indépendant"
+  },
+  "download": {
+    "title": "Prêt à reprendre le contrôle ?",
+    "subtitle": "Téléchargez HoldOn gratuitement et commencez dès aujourd'hui.",
+    "cta": "Télécharger sur Google Play",
+    "note": "Android 8.0+ requis • ~15 Mo"
+  },
+  "footer": {
+    "tagline": "Pause. Breathe. Choose.",
+    "legal": "Légal",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "contact": "Contact",
+    "copyright": "© 2025 HoldOn. Tous droits réservés."
+  }
+}

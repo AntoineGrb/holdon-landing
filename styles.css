@@ -102,10 +102,46 @@ a:hover {
     z-index: 1000;
     padding: var(--spacing-md) 0;
     transition: all var(--transition-normal);
+    background: var(--color-white);
+    box-shadow: var(--shadow-sm);
 }
 
 .navbar.scrolled {
     background: var(--color-white);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Language Switcher */
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    background: var(--color-background);
+    padding: 4px;
+    border-radius: var(--border-radius-sm);
+    margin-left: var(--spacing-md);
+}
+
+.lang-btn {
+    padding: 6px 12px;
+    border: none;
+    background: transparent;
+    color: var(--color-text-light);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all var(--transition-fast);
+    font-family: var(--font-family);
+}
+
+.lang-btn:hover {
+    color: var(--color-text);
+}
+
+.lang-btn.active {
+    background: var(--color-white);
+    color: var(--color-primary);
     box-shadow: var(--shadow-sm);
 }
 
@@ -832,40 +868,44 @@ a:hover {
 }
 
 .phone-mockup.small {
-    width: 220px;
-    height: 440px;
+    width: 200px;
+    height: 400px;
 }
 
 .phone-mockup.small::before {
-    width: 60px;
-    height: 20px;
-    top: 16px;
+    width: 50px;
+    height: 16px;
+    top: 12px;
 }
 
 .phone-mockup.small .phone-screen {
     background: var(--color-background);
-    border-radius: 28px;
+    border-radius: 24px;
+    padding: var(--spacing-xs);
 }
 
 .app-selection-preview {
-    padding: var(--spacing-lg);
+    padding: var(--spacing-sm);
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
 
 .app-item {
     display: flex;
     align-items: center;
-    gap: var(--spacing-md);
-    padding: var(--spacing-md);
+    gap: var(--spacing-sm);
+    padding: 8px 10px;
     background: var(--color-white);
-    border-radius: var(--border-radius-sm);
-    margin-bottom: var(--spacing-sm);
+    border-radius: 6px;
 }
 
 .app-icon {
-    width: 40px;
-    height: 40px;
-    border-radius: var(--border-radius-sm);
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    flex-shrink: 0;
 }
 
 .app-icon.instagram {
@@ -880,17 +920,35 @@ a:hover {
     background: #1DA1F2;
 }
 
+.app-icon.youtube {
+    background: #FF0000;
+}
+
+.app-icon.snapchat {
+    background: #FFFC00;
+}
+
 .app-item span {
     flex: 1;
-    font-size: var(--font-size-sm);
+    font-size: 11px;
     color: var(--color-text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.app-usage {
+    font-size: 10px;
+    color: var(--color-text-light);
+    margin-right: var(--spacing-xs);
 }
 
 .checkbox {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     border: 2px solid var(--color-text-light);
     border-radius: 4px;
+    flex-shrink: 0;
 }
 
 .checkbox.checked {
@@ -902,10 +960,10 @@ a:hover {
 .checkbox.checked::after {
     content: '';
     position: absolute;
-    top: 3px;
-    left: 6px;
+    top: 2px;
+    left: 4px;
     width: 4px;
-    height: 8px;
+    height: 7px;
     border: solid white;
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
