@@ -19,8 +19,12 @@
                 <img src="public/assets/logo2-slim.png" alt="HoldOn Logo" class="logo-img">
             </a>
             <div class="nav-links">
-                <a href="index.html">Accueil</a>
-                <a href="terms.html">Conditions d'utilisation</a>
+                <a href="index.html" data-i18n="nav.home">Accueil</a>
+                <a href="terms.html" data-i18n="nav.terms">Conditions d'utilisation</a>
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="fr">FR</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
             </div>
             <button class="nav-toggle" aria-label="Menu">
                 <span></span>
@@ -33,131 +37,131 @@
     <!-- Content -->
     <main class="legal-page">
         <div class="container">
-            <h1>Politique de confidentialité</h1>
-            <p class="legal-date">Dernière mise à jour : 22 janvier 2025</p>
+            <h1 data-i18n="privacy.title">Politique de confidentialité</h1>
+            <p class="legal-date" data-i18n="privacy.last_update">Dernière mise à jour : 22 janvier 2025</p>
 
             <section class="legal-section">
-                <h2>Notre engagement</h2>
-                <p>Chez HoldOn, nous prenons votre vie privée très au sérieux. <strong>Nous ne collectons, ne stockons, ni ne transmettons aucune donnée personnelle.</strong> Cette politique de confidentialité explique comment fonctionne notre application en matière de données.</p>
+                <h2 data-i18n="privacy.commitment_title">Notre engagement</h2>
+                <p data-i18n="privacy.commitment_text" data-i18n-html>Chez HoldOn, nous prenons votre vie privée très au sérieux. <strong>Nous ne collectons, ne stockons, ni ne transmettons aucune donnée personnelle.</strong> Cette politique de confidentialité explique comment fonctionne notre application en matière de données.</p>
 
                 <div class="highlight-box">
-                    <h3>En résumé</h3>
+                    <h3 data-i18n="privacy.summary_title">En résumé</h3>
                     <ul>
-                        <li>Aucune donnée n'est envoyée à nos serveurs</li>
-                        <li>Aucun compte utilisateur n'est requis</li>
-                        <li>Aucune analyse comportementale (analytics)</li>
-                        <li>Aucune publicité ni traceur tiers</li>
-                        <li>Toutes vos données restent sur votre appareil</li>
+                        <li data-i18n="privacy.summary_1">Aucune donnée n'est envoyée à nos serveurs</li>
+                        <li data-i18n="privacy.summary_2">Aucun compte utilisateur n'est requis</li>
+                        <li data-i18n="privacy.summary_3">Aucune analyse comportementale (analytics)</li>
+                        <li data-i18n="privacy.summary_4">Aucune publicité ni traceur tiers</li>
+                        <li data-i18n="privacy.summary_5">Toutes vos données restent sur votre appareil</li>
                     </ul>
                 </div>
             </section>
 
             <section class="legal-section">
-                <h2>1. Données collectées</h2>
-                <p><strong>Aucune.</strong></p>
-                <p>HoldOn ne collecte aucune donnée personnelle. L'application fonctionne entièrement en local sur votre appareil Android. Nous n'avons pas de serveur qui reçoit vos informations, et nous ne savons même pas que vous utilisez notre application.</p>
+                <h2 data-i18n="privacy.section1_title">1. Données collectées</h2>
+                <p data-i18n="privacy.section1_text1" data-i18n-html><strong>Aucune.</strong></p>
+                <p data-i18n="privacy.section1_text2">HoldOn ne collecte aucune donnée personnelle. L'application fonctionne entièrement en local sur votre appareil Android. Nous n'avons pas de serveur qui reçoit vos informations, et nous ne savons même pas que vous utilisez notre application.</p>
             </section>
 
             <section class="legal-section">
-                <h2>2. Données stockées localement</h2>
-                <p>Pour fonctionner, HoldOn stocke certaines informations <strong>uniquement sur votre appareil</strong> :</p>
+                <h2 data-i18n="privacy.section2_title">2. Données stockées localement</h2>
+                <p data-i18n="privacy.section2_intro" data-i18n-html>Pour fonctionner, HoldOn stocke certaines informations <strong>uniquement sur votre appareil</strong> :</p>
                 <ul>
-                    <li><strong>Liste des applications sélectionnées</strong> — Les applications que vous avez choisi de surveiller</li>
-                    <li><strong>Préférences</strong> — Durée de pause, langue, type de méditation préféré</li>
-                    <li><strong>Compteur de pauses</strong> — Le nombre de fois où vous avez fait une pause</li>
-                    <li><strong>Statut premium</strong> — Si vous avez effectué l'achat in-app</li>
-                    <li><strong>Données d'utilisation (optionnel)</strong> — Si vous activez la permission "Accès aux données d'utilisation" :
+                    <li data-i18n="privacy.section2_item1" data-i18n-html><strong>Liste des applications sélectionnées</strong> — Les applications que vous avez choisi de surveiller</li>
+                    <li data-i18n="privacy.section2_item2" data-i18n-html><strong>Préférences</strong> — Durée de pause, langue, type de méditation préféré</li>
+                    <li data-i18n="privacy.section2_item3" data-i18n-html><strong>Compteur de pauses</strong> — Le nombre de fois où vous avez fait une pause</li>
+                    <li data-i18n="privacy.section2_item4" data-i18n-html><strong>Statut premium</strong> — Si vous avez effectué l'achat in-app</li>
+                    <li data-i18n="privacy.section2_item5" data-i18n-html><strong>Données d'utilisation (optionnel)</strong> — Si vous activez la permission "Accès aux données d'utilisation" :
                         <ul>
-                            <li>Temps d'écran total par application (avant et après utilisation de HoldOn)</li>
-                            <li>Nombre d'ouvertures d'applications par jour</li>
-                            <li>Ces données sont calculées et stockées uniquement sur votre appareil pour générer vos statistiques personnelles</li>
-                            <li>Elles ne sont jamais transmises à nos serveurs ni partagées avec des tiers</li>
+                            <li data-i18n="privacy.section2_item5_sub1">Temps d'écran total par application (avant et après utilisation de HoldOn)</li>
+                            <li data-i18n="privacy.section2_item5_sub2">Nombre d'ouvertures d'applications par jour</li>
+                            <li data-i18n="privacy.section2_item5_sub3">Ces données sont calculées et stockées uniquement sur votre appareil pour générer vos statistiques personnelles</li>
+                            <li data-i18n="privacy.section2_item5_sub4">Elles ne sont jamais transmises à nos serveurs ni partagées avec des tiers</li>
                         </ul>
                     </li>
                 </ul>
-                <p>Ces données ne quittent jamais votre téléphone. Si vous désinstallez l'application, elles sont automatiquement supprimées.</p>
+                <p data-i18n="privacy.section2_outro">Ces données ne quittent jamais votre téléphone. Si vous désinstallez l'application, elles sont automatiquement supprimées.</p>
             </section>
 
             <section class="legal-section">
-                <h2>3. Permissions Android</h2>
-                <p>HoldOn requiert certaines permissions Android pour fonctionner. Voici pourquoi :</p>
+                <h2 data-i18n="privacy.section3_title">3. Permissions Android</h2>
+                <p data-i18n="privacy.section3_intro">HoldOn requiert certaines permissions Android pour fonctionner. Voici pourquoi :</p>
 
-                <h3>Permission d'accessibilité</h3>
-                <p>Cette permission permet à HoldOn de détecter quand vous ouvrez une application surveillée. <strong>Nous n'utilisons pas cette permission pour lire le contenu de vos applications</strong>, uniquement pour détecter leur ouverture.</p>
+                <h3 data-i18n="privacy.section3_perm1_title">Permission d'accessibilité</h3>
+                <p data-i18n="privacy.section3_perm1_text" data-i18n-html>Cette permission permet à HoldOn de détecter quand vous ouvrez une application surveillée. <strong>Nous n'utilisons pas cette permission pour lire le contenu de vos applications</strong>, uniquement pour détecter leur ouverture.</p>
 
-                <h3>Permission d'accès aux données d'utilisation</h3>
-                <p>Cette permission est optionnelle. Elle permet à HoldOn de récupérer votre temps d'écran localement afin de générer des statistiques comparatives (votre usage avant et après l'utilisation de l'app). Ces données ne sont jamais partagées et restent sur votre téléphone.</p>
+                <h3 data-i18n="privacy.section3_perm2_title">Permission d'accès aux données d'utilisation</h3>
+                <p data-i18n="privacy.section3_perm2_text">Cette permission est optionnelle. Elle permet à HoldOn de récupérer votre temps d'écran localement afin de générer des statistiques comparatives (votre usage avant et après l'utilisation de l'app). Ces données ne sont jamais partagées et restent sur votre téléphone.</p>
 
-                <h3>Limites strictes d'utilisation</h3>
-                <p>Ces permissions sont utilisées <strong>exclusivement</strong> pour les fonctionnalités décrites ci-dessus. Nous ne :</p>
+                <h3 data-i18n="privacy.section3_limits_title">Limites strictes d'utilisation</h3>
+                <p data-i18n="privacy.section3_limits_intro" data-i18n-html>Ces permissions sont utilisées <strong>exclusivement</strong> pour les fonctionnalités décrites ci-dessus. Nous ne :</p>
                 <ul>
-                    <li>Lisons jamais le contenu de vos applications (messages, emails, etc.)</li>
-                    <li>N'enregistrons jamais vos frappes clavier</li>
-                    <li>Ne suivons jamais votre navigation web</li>
-                    <li>Ne collectons jamais de données personnelles identifiables</li>
+                    <li data-i18n="privacy.section3_limits_1">Lisons jamais le contenu de vos applications (messages, emails, etc.)</li>
+                    <li data-i18n="privacy.section3_limits_2">N'enregistrons jamais vos frappes clavier</li>
+                    <li data-i18n="privacy.section3_limits_3">Ne suivons jamais votre navigation web</li>
+                    <li data-i18n="privacy.section3_limits_4">Ne collectons jamais de données personnelles identifiables</li>
                 </ul>
             </section>
 
             <section class="legal-section">
-                <h2>4. Achats in-app</h2>
-                <p>Les achats in-app sont gérés par Google Play. Nous n'avons pas accès à vos informations de paiement (carte bancaire, etc.). Google nous transmet uniquement une confirmation d'achat anonymisée qui nous permet de débloquer les fonctionnalités premium.</p>
+                <h2 data-i18n="privacy.section4_title">4. Achats in-app</h2>
+                <p data-i18n="privacy.section4_text">Les achats in-app sont gérés par Google Play. Nous n'avons pas accès à vos informations de paiement (carte bancaire, etc.). Google nous transmet uniquement une confirmation d'achat anonymisée qui nous permet de débloquer les fonctionnalités premium.</p>
             </section>
 
             <section class="legal-section">
-                <h2>5. Services tiers</h2>
-                <p>HoldOn utilise les services suivants :</p>
+                <h2 data-i18n="privacy.section5_title">5. Services tiers</h2>
+                <p data-i18n="privacy.section5_intro">HoldOn utilise les services suivants :</p>
                 <ul>
-                    <li><strong>RevenueCat</strong> — Pour la gestion des infrastructures d'achats in-app. RevenueCat traite les reçus d'achat (transmis par Google Play) pour valider votre statut Premium. Ces données sont liées à un identifiant d'installation anonyme et ne sont pas croisées avec vos données personnelles.</li>
+                    <li data-i18n="privacy.section5_item1" data-i18n-html><strong>RevenueCat</strong> — Pour la gestion des infrastructures d'achats in-app. RevenueCat traite les reçus d'achat (transmis par Google Play) pour valider votre statut Premium. Ces données sont liées à un identifiant d'installation anonyme et ne sont pas croisées avec vos données personnelles.</li>
                 </ul>
-                <p>Nous n'utilisons aucun service d'analytics, de publicité, ou de tracking. En cas de plantage de l'application, le système Android peut envoyer des rapports techniques anonymes (logs de crash) via la Google Play Console pour nous aider à corriger les bugs. Ces rapports ne contiennent aucune donnée personnelle.</p>
+                <p data-i18n="privacy.section5_outro">Nous n'utilisons aucun service d'analytics, de publicité, ou de tracking. En cas de plantage de l'application, le système Android peut envoyer des rapports techniques anonymes (logs de crash) via la Google Play Console pour nous aider à corriger les bugs. Ces rapports ne contiennent aucune donnée personnelle.</p>
             </section>
 
             <section class="legal-section">
-                <h2>6. Utilisation des données</h2>
-                <p><strong>Aucune donnée n'est utilisée à des fins commerciales.</strong></p>
-                <p>Les données stockées localement sur votre appareil (voir section 2) sont utilisées <strong>uniquement</strong> pour :</p>
+                <h2 data-i18n="privacy.section6_title">6. Utilisation des données</h2>
+                <p data-i18n="privacy.section6_intro" data-i18n-html><strong>Aucune donnée n'est utilisée à des fins commerciales.</strong></p>
+                <p data-i18n="privacy.section6_text1" data-i18n-html>Les données stockées localement sur votre appareil (voir section 2) sont utilisées <strong>uniquement</strong> pour :</p>
                 <ul>
-                    <li>Faire fonctionner l'application (détecter les apps, afficher les méditations)</li>
-                    <li>Vous fournir vos statistiques personnelles de progression</li>
-                    <li>Enregistrer vos préférences d'utilisation</li>
+                    <li data-i18n="privacy.section6_use1">Faire fonctionner l'application (détecter les apps, afficher les méditations)</li>
+                    <li data-i18n="privacy.section6_use2">Vous fournir vos statistiques personnelles de progression</li>
+                    <li data-i18n="privacy.section6_use3">Enregistrer vos préférences d'utilisation</li>
                 </ul>
-                <p><strong>Nous n'utilisons jamais vos données pour :</strong></p>
+                <p data-i18n="privacy.section6_text2" data-i18n-html><strong>Nous n'utilisons jamais vos données pour :</strong></p>
                 <ul>
-                    <li>Afficher de la publicité ciblée</li>
-                    <li>Créer un profil utilisateur</li>
-                    <li>Vendre ou partager vos informations avec des tiers</li>
-                    <li>Entraîner des modèles d'intelligence artificielle</li>
-                    <li>Toute autre finalité que celles listées ci-dessus</li>
+                    <li data-i18n="privacy.section6_never1">Afficher de la publicité ciblée</li>
+                    <li data-i18n="privacy.section6_never2">Créer un profil utilisateur</li>
+                    <li data-i18n="privacy.section6_never3">Vendre ou partager vos informations avec des tiers</li>
+                    <li data-i18n="privacy.section6_never4">Entraîner des modèles d'intelligence artificielle</li>
+                    <li data-i18n="privacy.section6_never5">Toute autre finalité que celles listées ci-dessus</li>
                 </ul>
             </section>
 
             <section class="legal-section">
-                <h2>7. Données des enfants</h2>
-                <p>HoldOn ne s'adresse pas spécifiquement aux enfants de moins de 13 ans. Cependant, comme nous ne collectons aucune donnée, il n'y a aucun risque pour la vie privée des mineurs.</p>
+                <h2 data-i18n="privacy.section7_title">7. Données des enfants</h2>
+                <p data-i18n="privacy.section7_text">HoldOn ne s'adresse pas spécifiquement aux enfants de moins de 13 ans. Cependant, comme nous ne collectons aucune donnée, il n'y a aucun risque pour la vie privée des mineurs.</p>
             </section>
 
             <section class="legal-section">
-                <h2>8. Vos droits</h2>
-                <p>Puisque nous ne collectons aucune donnée vous concernant, les droits d'accès, de rectification, de suppression et de portabilité des données (RGPD) ne s'appliquent pas — il n'y a simplement rien à vous fournir.</p>
-                <p>Si vous désinstallez l'application, toutes les données locales sont automatiquement supprimées de votre appareil.</p>
+                <h2 data-i18n="privacy.section8_title">8. Vos droits</h2>
+                <p data-i18n="privacy.section8_text1">Puisque nous ne collectons aucune donnée vous concernant, les droits d'accès, de rectification, de suppression et de portabilité des données (RGPD) ne s'appliquent pas — il n'y a simplement rien à vous fournir.</p>
+                <p data-i18n="privacy.section8_text2">Si vous désinstallez l'application, toutes les données locales sont automatiquement supprimées de votre appareil.</p>
             </section>
 
             <section class="legal-section">
-                <h2>9. Modifications de cette politique</h2>
-                <p>Si nous modifions cette politique de confidentialité, nous mettrons à jour la date en haut de cette page.</p>
-                <p><strong>Pour les changements significatifs</strong> (modification de la collecte de données, nouvelles permissions, nouveaux services tiers), nous :</p>
+                <h2 data-i18n="privacy.section9_title">9. Modifications de cette politique</h2>
+                <p data-i18n="privacy.section9_text1">Si nous modifions cette politique de confidentialité, nous mettrons à jour la date en haut de cette page.</p>
+                <p data-i18n="privacy.section9_text2" data-i18n-html><strong>Pour les changements significatifs</strong> (modification de la collecte de données, nouvelles permissions, nouveaux services tiers), nous :</p>
                 <ul>
-                    <li>Vous informerons via une notification dans l'application <strong>au moins 30 jours avant</strong> l'entrée en vigueur</li>
-                    <li>Afficherons un résumé clair des modifications dans l'application</li>
-                    <li>Vous donnerons la possibilité de refuser les nouvelles conditions (ce qui peut impliquer l'arrêt de l'utilisation de l'application si les modifications sont essentielles au fonctionnement)</li>
+                    <li data-i18n="privacy.section9_major1" data-i18n-html>Vous informerons via une notification dans l'application <strong>au moins 30 jours avant</strong> l'entrée en vigueur</li>
+                    <li data-i18n="privacy.section9_major2">Afficherons un résumé clair des modifications dans l'application</li>
+                    <li data-i18n="privacy.section9_major3">Vous donnerons la possibilité de refuser les nouvelles conditions (ce qui peut impliquer l'arrêt de l'utilisation de l'application si les modifications sont essentielles au fonctionnement)</li>
                 </ul>
-                <p>Les modifications mineures (corrections de fautes, clarifications sans impact sur vos droits) entreront en vigueur dès leur publication.</p>
+                <p data-i18n="privacy.section9_text3">Les modifications mineures (corrections de fautes, clarifications sans impact sur vos droits) entreront en vigueur dès leur publication.</p>
             </section>
 
             <section class="legal-section">
-                <h2>10. Contact</h2>
-                <p>Si vous avez des questions concernant cette politique de confidentialité, vous pouvez nous contacter à :</p>
-                <p><a href="mailto:contact@holdon-app.com">contact@holdon-app.com</a></p>
+                <h2 data-i18n="privacy.section10_title">10. Contact</h2>
+                <p data-i18n="privacy.section10_text1">Si vous avez des questions concernant cette politique de confidentialité, vous pouvez nous contacter à :</p>
+                <p><a href="mailto:contact@holdon-app.com" data-i18n="privacy.section10_email">contact@holdon-app.com</a></p>
             </section>
         </div>
     </main>
@@ -168,27 +172,85 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <img src="public/assets/logo2.png" alt="HoldOn" class="footer-logo">
-                    <p>Pause. Breathe. Choose.</p>
+                    <p data-i18n="footer.tagline">Pause. Breathe. Choose.</p>
                 </div>
                 <div class="footer-links">
                     <div class="footer-column">
-                        <h4>Légal</h4>
-                        <a href="privacy.html">Politique de confidentialité</a>
-                        <a href="terms.html">Conditions d'utilisation</a>
+                        <h4 data-i18n="footer.legal">Légal</h4>
+                        <a href="privacy.html" data-i18n="footer.privacy">Politique de confidentialité</a>
+                        <a href="terms.html" data-i18n="footer.terms">Conditions d'utilisation</a>
                     </div>
                     <div class="footer-column">
-                        <h4>Contact</h4>
+                        <h4 data-i18n="footer.contact">Contact</h4>
                         <a href="mailto:contact@holdon-app.com">contact@holdon-app.com</a>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 HoldOn. Tous droits réservés.</p>
+                <p data-i18n="footer.copyright">&copy; 2025 HoldOn. Tous droits réservés.</p>
             </div>
         </div>
     </footer>
 
     <script>
+        // Translation system
+        let translations = {};
+        let currentLang = localStorage.getItem('holdon-lang') || 'fr';
+
+        async function loadTranslations(lang) {
+            try {
+                const response = await fetch(`translations/${lang}.json`);
+                translations = await response.json();
+                applyTranslations();
+                document.documentElement.lang = lang;
+            } catch (error) {
+                console.error('Error loading translations:', error);
+            }
+        }
+
+        function getNestedValue(obj, path) {
+            return path.split('.').reduce((acc, part) => acc && acc[part], obj);
+        }
+
+        function applyTranslations() {
+            document.querySelectorAll('[data-i18n]').forEach(element => {
+                const key = element.getAttribute('data-i18n');
+                const value = getNestedValue(translations, key);
+                if (value) {
+                    if (element.hasAttribute('data-i18n-html')) {
+                        element.innerHTML = value;
+                    } else {
+                        element.textContent = value;
+                    }
+                }
+            });
+        }
+
+        function setLanguage(lang) {
+            currentLang = lang;
+            localStorage.setItem('holdon-lang', lang);
+
+            // Update active button
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.lang === lang);
+            });
+
+            loadTranslations(lang);
+        }
+
+        // Initialize language switcher
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
+        });
+
+        // Set initial active state
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.lang === currentLang);
+        });
+
+        // Load initial translations
+        loadTranslations(currentLang);
+
         // Mobile navigation toggle
         const navToggle = document.querySelector('.nav-toggle');
         const navLinks = document.querySelector('.nav-links');
