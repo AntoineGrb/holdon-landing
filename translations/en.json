@@ -14,7 +14,7 @@
     "note": "Android only • Free with premium option"
   },
   "meditation": {
-    "breathe": "Breathe..."
+    "breathe": "Inhale through your nose. Exhale slowly through your mouth."
   },
   "problem": {
     "stat1_number": "96×",
@@ -41,10 +41,10 @@
     "title": "3 types of meditations",
     "subtitle": "Each app opening is a new opportunity to refocus",
     "breathing_title": "Breathing",
-    "breathing_text": "Follow the gently pulsing circle. Inhale as it grows, exhale as it contracts.",
-    "breathing_tag": "4 seconds inhale • 4 seconds exhale",
+    "breathing_text": "Return to your breath to calm down.",
+    "breathing_tag": "Inhale • Exhale",
     "sounds_title": "Sounds",
-    "sounds_text": "Close your eyes for a moment and identify three distinct sounds around you.",
+    "sounds_text": "Close your eyes for a moment and identify the sounds around you.",
     "sounds_tag": "Sensory anchoring",
     "sensations_title": "Sensations",
     "sensations_text": "Reconnect with your body. Feel your feet on the ground, your hands, your breathing.",
@@ -98,7 +98,7 @@
     "title": "Ready to take back control?",
     "subtitle": "Download HoldOn for free and start today.",
     "cta": "Download on Google Play",
-    "note": "Android 8.0+ required • ~15 MB"
+    "note": "Android 7.0+ required • ~30 MB"
   },
   "footer": {
     "tagline": "Pause. Breathe. Choose.",

@@ -55,14 +55,20 @@
                         <span data-i18n="hero.cta">Télécharger sur Google Play</span>
                     </a>
                 </div>
-                <p class="hero-note" data-i18n="hero.note">Application Android uniquement • Gratuit avec option premium</p>
             </div>
             <div class="hero-visual">
                 <div class="phone-mockup">
                     <div class="phone-screen">
-                        <div class="meditation-preview">
-                            <div class="breathing-circle"></div>
-                            <p class="meditation-text" data-i18n="meditation.breathe">Respire...</p>
+                        <div class="video-container">
+                            <video id="heroVideo" playsinline muted>
+                                <source src="public/assets/demo.mp4" type="video/mp4">
+                            </video>
+                            <div class="video-poster">
+                                <img src="public/assets/logo2-slim.png" alt="HoldOn" class="video-poster-logo">
+                            </div>
+                            <button class="video-play-btn" aria-label="Lancer la vidéo">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -199,28 +205,61 @@
 
             <div class="science-grid">
                 <div class="science-card">
-                    <div class="science-number">01</div>
+                    <div class="science-header">
+                        <div class="science-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M8 12h8M12 8v8"/>
+                            </svg>
+                        </div>
+                        <div class="science-number">01</div>
+                    </div>
                     <h3 data-i18n="science.card1_title">L'espace stimulus-réponse</h3>
                     <p data-i18n="science.card1_text" data-i18n-html>Entre le stimulus (envie d'ouvrir Instagram) et la réponse (l'ouvrir), il existe un espace. En créant une pause de quelques secondes, HoldOn élargit cet espace et vous permet de <strong>choisir consciemment</strong> plutôt que de réagir automatiquement.</p>
                     <cite data-i18n="science.card1_cite">— Viktor Frankl, "Man's Search for Meaning"</cite>
                 </div>
 
                 <div class="science-card">
-                    <div class="science-number">02</div>
+                    <div class="science-header">
+                        <div class="science-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2a10 10 0 1 0 10 10"/>
+                                <path d="M12 12l4-4"/>
+                                <circle cx="12" cy="12" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="science-number">02</div>
+                    </div>
                     <h3 data-i18n="science.card2_title">La pleine conscience réduit l'impulsivité</h3>
                     <p data-i18n="science.card2_text" data-i18n-html>Des études montrent que même de <strong>courtes pratiques de pleine conscience</strong> (moins de 10 minutes) réduisent significativement les comportements impulsifs et améliorent l'autorégulation.</p>
                     <cite data-i18n="science.card2_cite">— Journal of Cognitive Enhancement, 2019</cite>
                 </div>
 
                 <div class="science-card">
-                    <div class="science-number">03</div>
+                    <div class="science-header">
+                        <div class="science-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 11l3 3L22 4"/>
+                                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+                            </svg>
+                        </div>
+                        <div class="science-number">03</div>
+                    </div>
                     <h3 data-i18n="science.card3_title">L'intention consciente</h3>
                     <p data-i18n="science.card3_text" data-i18n-html>Quand vous devez <strong>confirmer votre choix</strong> d'ouvrir une application, vous passez du mode "pilote automatique" au mode conscient. Cette simple friction suffit souvent à briser le cycle automatique.</p>
                     <cite data-i18n="science.card3_cite">— BJ Fogg, Stanford Behavior Design Lab</cite>
                 </div>
 
                 <div class="science-card">
-                    <div class="science-number">04</div>
+                    <div class="science-header">
+                        <div class="science-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22c4-4 8-7.5 8-12a8 8 0 1 0-16 0c0 4.5 4 8 8 12z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="science-number">04</div>
+                    </div>
                     <h3 data-i18n="science.card4_title">La respiration active le parasympathique</h3>
                     <p data-i18n="science.card4_text" data-i18n-html>La respiration lente et profonde <strong>active le système nerveux parasympathique</strong>, réduisant le stress et l'anxiété qui nous poussent souvent à chercher la distraction sur notre téléphone.</p>
                     <cite data-i18n="science.card4_cite">— Harvard Medical School</cite>
@@ -262,36 +301,7 @@
                     <div class="phone-mockup small">
                         <div class="phone-screen">
                             <div class="app-selection-preview">
-                                <div class="app-item">
-                                    <div class="app-icon instagram"></div>
-                                    <span>Instagram</span>
-                                    <span class="app-usage">2h12</span>
-                                    <div class="checkbox checked"></div>
-                                </div>
-                                <div class="app-item">
-                                    <div class="app-icon tiktok"></div>
-                                    <span>TikTok</span>
-                                    <span class="app-usage">1h45</span>
-                                    <div class="checkbox checked"></div>
-                                </div>
-                                <div class="app-item">
-                                    <div class="app-icon twitter"></div>
-                                    <span>X (Twitter)</span>
-                                    <span class="app-usage">48m</span>
-                                    <div class="checkbox"></div>
-                                </div>
-                                <div class="app-item">
-                                    <div class="app-icon youtube"></div>
-                                    <span>YouTube</span>
-                                    <span class="app-usage">1h23</span>
-                                    <div class="checkbox checked"></div>
-                                </div>
-                                <div class="app-item">
-                                    <div class="app-icon snapchat"></div>
-                                    <span>Snapchat</span>
-                                    <span class="app-usage">35m</span>
-                                    <div class="checkbox"></div>
-                                </div>
+                                <img src="./public/assets/screenshot-app-selection2.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -333,12 +343,11 @@
                     </ul>
                 </div>
 
-                <div class="pricing-card premium">
-                    <div class="pricing-badge" data-i18n="pricing.premium_badge">Recommandé</div>
+                <div class="pricing-card">
                     <div class="pricing-header">
                         <h3 data-i18n="pricing.premium_title">Premium</h3>
                         <div class="pricing-price" data-i18n="pricing.premium_price">9,99€</div>
-                        <p data-i18n="pricing.premium_period">Achat unique, à vie</p>
+                        <span class="pricing-lifetime-badge" data-i18n="pricing.premium_period">Achat unique, à vie</span>
                     </div>
                     <ul class="pricing-features">
                         <li>
@@ -389,8 +398,8 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <img src="public/assets/logo2.png" alt="HoldOn" class="footer-logo">
-                    <p data-i18n="footer.tagline">Pause. Breathe. Choose.</p>
+                    <img src="public/assets/logo3-white-slim.png" alt="HoldOn" class="footer-logo">
+                    <p data-i18n="footer.tagline">Pause. Respire. Choisis.</p>
                 </div>
                 <div class="footer-links">
                     <div class="footer-column">
@@ -503,6 +512,39 @@
             } else {
                 navbar.classList.remove('scrolled');
             }
+        });
+
+        // Hero video play/pause
+        const heroVideo = document.getElementById('heroVideo');
+        const playBtn = document.querySelector('.video-play-btn');
+        const poster = document.querySelector('.video-poster');
+        const pauseIcon = '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>';
+        const playIcon = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
+
+        playBtn.addEventListener('click', () => {
+            if (heroVideo.paused) {
+                heroVideo.play();
+                heroVideo.classList.add('playing');
+                poster.classList.add('hidden');
+                playBtn.classList.add('playing');
+                playBtn.classList.add('pause');
+                playBtn.innerHTML = pauseIcon;
+            } else {
+                heroVideo.pause();
+                heroVideo.classList.remove('playing');
+                poster.classList.remove('hidden');
+                playBtn.classList.remove('playing');
+                playBtn.classList.remove('pause');
+                playBtn.innerHTML = playIcon;
+            }
+        });
+
+        heroVideo.addEventListener('ended', () => {
+            heroVideo.classList.remove('playing');
+            poster.classList.remove('hidden');
+            playBtn.classList.remove('playing');
+            playBtn.classList.remove('pause');
+            playBtn.innerHTML = playIcon;
         });
     </script>
 </body>

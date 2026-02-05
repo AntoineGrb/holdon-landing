@@ -8,13 +8,13 @@
     "terms": "Conditions d'utilisation"
   },
   "hero": {
-    "title": "Pause. Breathe. Choose.",
+    "title": "Pause. Respire. Choisis.",
     "subtitle": "Reprenez le contrôle de votre attention avec des micro-méditations bienveillantes avant d'ouvrir vos applications.",
     "cta": "Télécharger sur Google Play",
     "note": "Application Android uniquement • Gratuit avec option premium"
   },
   "meditation": {
-    "breathe": "Respire..."
+    "breathe": "Inspire par le nez. Expire lentement par la bouche."
   },
   "problem": {
     "stat1_number": "96×",
@@ -41,10 +41,10 @@
     "title": "3 types de méditations",
     "subtitle": "Chaque ouverture d'app est une nouvelle opportunité de se recentrer",
     "breathing_title": "Respiration",
-    "breathing_text": "Suivez le cercle qui pulse doucement. Inspirez quand il s'agrandit, expirez quand il se contracte.",
-    "breathing_tag": "4 secondes inspire • 4 secondes expire",
+    "breathing_text": "Revenez à votre respiration pour vous apaiser.",
+    "breathing_tag": "Inspiration • Expiration",
     "sounds_title": "Sons",
-    "sounds_text": "Fermez les yeux un instant et identifiez trois sons distincts autour de vous.",
+    "sounds_text": "Fermez les yeux un instant et identifiez les sons autour de vous.",
     "sounds_tag": "Ancrage sensoriel",
     "sensations_title": "Sensations",
     "sensations_text": "Reconnectez-vous à votre corps. Sentez vos pieds sur le sol, vos mains, votre respiration.",
@@ -98,10 +98,10 @@
     "title": "Prêt à reprendre le contrôle ?",
     "subtitle": "Téléchargez HoldOn gratuitement et commencez dès aujourd'hui.",
     "cta": "Télécharger sur Google Play",
-    "note": "Android 8.0+ requis • ~15 Mo"
+    "note": "Android 7.0 + requis • ~30 Mo"
   },
   "footer": {
-    "tagline": "Pause. Breathe. Choose.",
+    "tagline": "Pause. Respire. Choisis.",
     "legal": "Légal",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
