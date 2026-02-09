@@ -534,8 +534,8 @@ a:hover {
 
 @media (max-width: 480px) {
     .phone-mockup {
-        width: 180px;
-        height: 340px;
+        width: 200px;
+        height: 380px;
     }
 
     .breathing-circle {
