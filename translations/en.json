@@ -1,7 +1,7 @@
 {
   "nav": {
     "features": "Features",
-    "science": "The Science",
+    "science": "Science",
     "download": "Download",
     "home": "Home",
     "privacy": "Privacy Policy",
@@ -11,7 +11,8 @@
     "title": "Pause. Breathe. Choose.",
     "subtitle": "Take back control of your attention with mindful micro-meditations before opening your apps.",
     "cta": "Download on Google Play",
-    "note": "Android only • Free with premium option"
+    "note": "Android only • Free with premium option",
+    "play_label": "Watch demo"
   },
   "meditation": {
     "breathe": "Inhale through your nose. Exhale slowly through your mouth."
@@ -79,6 +80,7 @@
     "subtitle": "No subscription. No hidden fees.",
     "free_title": "Free",
     "free_price": "$0",
+    "free_period": "Always free",
     "free_feature1": "1 monitored app",
     "free_feature2": "3 meditation types",
     "free_feature3": "Customizable pause duration",

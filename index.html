@@ -68,6 +68,7 @@
                             </div>
                             <button class="video-play-btn" aria-label="Lancer la vidéo">
                                 <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                                <span class="play-btn-label" data-i18n="hero.play_label">Voir la démo</span>
                             </button>
                         </div>
                     </div>
@@ -312,6 +313,7 @@
                     <div class="pricing-header">
                         <h3 data-i18n="pricing.free_title">Gratuit</h3>
                         <div class="pricing-price" data-i18n="pricing.free_price">0€</div>
+                        <span class="pricing-free-badge" data-i18n="pricing.free_period">Toujours gratuit</span>
                     </div>
                     <ul class="pricing-features">
                         <li>
@@ -509,7 +511,11 @@
         const playBtn = document.querySelector('.video-play-btn');
         const poster = document.querySelector('.video-poster');
         const pauseIcon = '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>';
-        const playIcon = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
+
+        function getPlayIcon() {
+            const label = getNestedValue(translations, 'hero.play_label') || 'Voir la démo';
+            return `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span class="play-btn-label">${label}</span>`;
+        }
 
         playBtn.addEventListener('click', () => {
             if (heroVideo.paused) {
@@ -525,7 +531,7 @@
                 poster.classList.remove('hidden');
                 playBtn.classList.remove('playing');
                 playBtn.classList.remove('pause');
-                playBtn.innerHTML = playIcon;
+                playBtn.innerHTML = getPlayIcon();
             }
         });
 
@@ -534,7 +540,7 @@
             poster.classList.remove('hidden');
             playBtn.classList.remove('playing');
             playBtn.classList.remove('pause');
-            playBtn.innerHTML = playIcon;
+            playBtn.innerHTML = getPlayIcon();
         });
     </script>
 </body>

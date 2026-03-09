@@ -365,7 +365,7 @@ a:hover {
     position: relative;
 }
 
-.phone-mockup::before {
+/* .phone-mockup::before {
     content: '';
     position: absolute;
     top: 20px;
@@ -376,7 +376,7 @@ a:hover {
     background: #1a1a1a;
     border-radius: 12px;
     z-index: 10;
-}
+} */
 
 .phone-screen {
     width: 100%;
@@ -435,34 +435,56 @@ a:hover {
     height: auto;
 }
 
+/* Pill button "Voir la démo" au repos */
 .video-play-btn {
     position: absolute;
-    top: 53%;
+    bottom: 18px;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 52px;
-    height: 52px;
-    border-radius: 50%;
+    top: auto;
+    transform: translateX(-50%);
+    width: auto;
+    height: 40px;
+    border-radius: 20px;
     background: var(--color-gradient);
     border: none;
     color: var(--color-white);
     cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 6px;
+    padding: 0 16px 0 12px;
+    font-family: var(--font-family);
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
     box-shadow: var(--shadow-md);
     transition: all var(--transition-fast);
-    z-index: 2;
-    margin-top: 40px;
+    z-index: 3;
 }
 
 .video-play-btn:hover {
-    transform: translate(-50%, -50%) scale(1.08);
+    transform: translateX(-50%) translateY(-2px);
     box-shadow: var(--shadow-lg);
 }
 
-/* Pendant la lecture : overlay semi-transparent, même position */
+.video-play-btn svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+/* Pendant la lecture : cercle centré semi-transparent */
 .video-play-btn.playing {
+    bottom: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    padding: 0;
+    gap: 0;
+    justify-content: center;
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
@@ -470,24 +492,33 @@ a:hover {
     transition: opacity var(--transition-normal);
 }
 
-.video-container:hover .video-play-btn.playing {
-    opacity: 1;
-}
-
-.video-play-btn svg {
+.video-play-btn.playing svg {
     width: 20px;
     height: 20px;
     margin-left: 3px;
 }
 
-.video-play-btn.pause svg {
+.video-play-btn.playing.pause svg {
     margin-left: 0;
+}
+
+.video-play-btn.playing .play-btn-label {
+    display: none;
+}
+
+.video-container:hover .video-play-btn.playing {
+    opacity: 1;
+}
+
+.video-play-btn.playing:hover {
+    transform: translate(-50%, -50%) scale(1.08);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 /* Hero Wave */
 .hero-wave {
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     right: 0;
 }
@@ -529,6 +560,10 @@ a:hover {
 
     .meditation-text {
         font-size: var(--font-size-base);
+    }
+
+    .video-poster-logo {
+        width: 120px;
     }
 }
 
@@ -1060,6 +1095,11 @@ a:hover {
     margin-bottom: var(--spacing-lg);
     padding-bottom: var(--spacing-lg);
     border-bottom: 1px solid var(--color-background);
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .pricing-header h3 {
@@ -1090,6 +1130,18 @@ a:hover {
     border-radius: var(--border-radius-sm);
     font-size: var(--font-size-sm);
     font-weight: 600;
+    margin-top: var(--spacing-sm);
+}
+
+/* Badge neutre pour le plan gratuit */
+.pricing-free-badge {
+    display: inline-block;
+    background: #E8EAED;
+    color: var(--color-text-light);
+    padding: var(--spacing-xs) var(--spacing-md);
+    border-radius: var(--border-radius-sm);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
     margin-top: var(--spacing-sm);
 }
 

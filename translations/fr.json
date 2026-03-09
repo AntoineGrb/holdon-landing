@@ -1,6 +1,6 @@
 {
   "nav": {
-    "features": "Fonctionnalités",
+    "features": "Les Fonctionnalités",
     "science": "La Science",
     "download": "Télécharger",
     "home": "Accueil",
@@ -11,7 +11,8 @@
     "title": "Pause. Respire. Choisis.",
     "subtitle": "Reprenez le contrôle de votre attention avec des micro-méditations bienveillantes avant d'ouvrir vos applications.",
     "cta": "Télécharger sur Google Play",
-    "note": "Application Android uniquement • Gratuit avec option premium"
+    "note": "Application Android uniquement • Gratuit avec option premium",
+    "play_label": "Voir la démo"
   },
   "meditation": {
     "breathe": "Inspire par le nez. Expire lentement par la bouche."
@@ -79,6 +80,7 @@
     "subtitle": "Pas d'abonnement. Pas de frais cachés.",
     "free_title": "Gratuit",
     "free_price": "0€",
+    "free_period": "Toujours gratuit",
     "free_feature1": "1 application surveillée",
     "free_feature2": "3 types de méditations",
     "free_feature3": "Durée de pause personnalisable",
