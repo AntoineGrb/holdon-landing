@@ -125,6 +125,7 @@
     "section1_item1": "<strong>Names of opened apps</strong> — Via the Android accessibility service, HoldOn reads the package name of each app you open (e.g., com.instagram.android) to detect if it's part of your monitored apps. No content from your screens, messages, or other information is read.",
     "section1_item2": "<strong>Usage statistics (optional)</strong> — If you grant the \"Usage Access\" permission, HoldOn accesses your screen time per app to generate your personal before/after HoldOn statistics.",
     "section1_item3": "<strong>Purchase status</strong> — If you make a premium purchase, RevenueCat receives an anonymous installation identifier to validate your purchase via Google Play. No personally identifiable data is transmitted.",
+    "section1_item4": "<strong>Health data (Health Data)</strong> — Although HoldOn is a wellness application, we do not request any access to health APIs (like Health Connect), and we do not collect, access, or store any health or medical data about you.",
     "section1_text2": "<strong>None of this data is transmitted to servers.</strong> It all stays on your device. We have no visibility into your usage of the application.",
     "section2_title": "2. Data stored locally",
     "section2_intro": "To function, HoldOn stores some information <strong>only on your device</strong>:",
